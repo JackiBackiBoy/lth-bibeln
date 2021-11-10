@@ -1,0 +1,16 @@
+body {
+  background-color: #dddddd;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  color: rgb(32, 32, 32);
+  text-align: center;
+}
+
+#introduction {
+  background-color: white;
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
