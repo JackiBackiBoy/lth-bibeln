@@ -11,7 +11,7 @@
 body {
   margin: 0 auto;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Segoe UI", 'Roboto', sans-serif;
 }
 
 #navbar-container {
@@ -25,6 +25,7 @@ body {
 
 #navbar-container ul {
   text-align: center;
+  line-height: 30px;
   padding: 0;
   margin: 0 auto;
   display: flex;
@@ -32,10 +33,20 @@ body {
   align-items: center;
 }
 
+#navbar-container li:hover {
+  background-color: aquamarine;
+}
+
 #navbar-container li {
-  padding: 0 50px;
+  width: 100px;
+  font-weight: 500;
   display: list-item;
+  height: 100%;
+  padding: 0 10px;
   text-align: -webkit-match-parent;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
 }
 
 #github-logo {
